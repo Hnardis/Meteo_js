@@ -20,7 +20,7 @@ function recevoirTemperature(ville) {
     if (requete.readyState === XMLHttpRequest.DONE) {
       if (requete.status === 200) {
         let reponse = requete.response;
-        // console.log(reponse);
+        // console.log(reponse); je viens de le faire
         let temperature = reponse.main.temp;
         let ville       = reponse.name;
         // console.log(temperature);
